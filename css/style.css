@@ -16,6 +16,10 @@ body {
 
 /*MAIN*/
 
+.galeria {
+        background-color: rgb(251, 237, 209);
+}
+
 .fondo-index {
         background-image: url("../img/fondo-moda.jpeg");
         height: 600px;
@@ -27,12 +31,11 @@ body {
         width: 100%;
         font-weight: bold;
         color: white;
+        border: none;
 }
 .fondo-index div {
         width: 100%;
-        align-items: center;
-        justify-content: center;
-        border: 5px;
+        border: none;
 }
 
 .fondo-index2 {
@@ -42,20 +45,20 @@ body {
         margin-top: 15px;
 }
 
+.fondo-index2 section {
+        align-items: center;
+        justify-content: space-around;
+}
+
 .fondo-index2 h2 {
         font-size: 200px;
         font-weight: bold;
         color: black;
-        justify-content: space-around;
-        text-align: center;
-
 }
 
 .fondo-index2 div {
-        align-items: center;
-        justify-content: center;
-        width: 100%;
         border: none;
+        width: 100%;
 }
 
 .fondo-index2 h2 {
@@ -272,7 +275,7 @@ img {
                 width: 100%;
                 align-items: center;
                 justify-content: center;
-                border: 5px;
+                border: none;
         }
         
         .fondo-index2 {
@@ -299,30 +302,30 @@ img {
         }
         
         .fondo-index2 h2 {
-                animation: change 15s infinite;
+                animation: change 5s infinite;
         }
         
         @keyframes change {
                 0% {
-                        font-size: 80px;
+                        font-size: 60px;
         
                 }
         
                 25% {
                         color: rgb(213, 164, 74);
-                        font-size:70px;
+                        font-size:50px;
         
                 }
         
                 50% {
                         color: orange;
-                        font-size: 60px;
+                        font-size: 40px;
         
                 }
         
                 100% {
                         color: black;
-                        font-size: 80px;
+                        font-size: 30px;
         
                 }
         }
