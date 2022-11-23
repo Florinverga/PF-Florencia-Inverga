@@ -44,6 +44,15 @@ a {
 
 /*MAIN*/
 
+.nosotros {
+        height: 400px;
+        width: 30%;
+}
+.texto {
+        height: 400px;
+        width: 70%;
+}
+
 .fondo-index {
         background-image: url("../img/fondo-moda.jpeg");
         height: 600px;
